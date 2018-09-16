@@ -7,13 +7,10 @@
  */
 let stepGoal = 10000
 let steps = 3948
+var stepCheck: Int
+stepCheck = stepGoal < 4999 ? print("Almost halfway!") : print("Halfway there!")
 
-if steps < stepGoal / 2 {
-    print("Almost halfway!")
-} else {
-    print("Over halfway!")
-}
-
+// The textbook does not describe in any manner how to assign print statements to a ternary operator, nor is it addressed in class.
 
 /*:
  
