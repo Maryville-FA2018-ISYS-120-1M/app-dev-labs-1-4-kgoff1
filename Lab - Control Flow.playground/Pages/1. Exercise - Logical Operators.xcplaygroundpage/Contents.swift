@@ -45,7 +45,7 @@ print ((47 > 90) && (47 < 90))
 /*:
  8. `(47 > 90) || (47 < 90)`
  */
-print (false)
+print (false) // print(true)
 print ((47 > 90) || (47 < 90))
 /*:
  9. `!true`
